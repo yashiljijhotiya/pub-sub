@@ -1,4 +1,7 @@
 package com.MessageBroker.MessageBroker.repository;
 
-public class ISubscriberRepository {
+import com.MessageBroker.MessageBroker.models.Subscriber;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ISubscriberRepository extends JpaRepository<Subscriber, Long> {
 }

@@ -1,4 +1,4 @@
 package com.MessageBroker.MessageBroker.repository;
 
-public class IBrokerRepository{
+public interface IBrokerRepository {
 }
